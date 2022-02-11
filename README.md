@@ -3,3 +3,18 @@
 
 Android wrapper for `Arithmos` : https://github.com/Scrappers-glitch/Arithmos
 
+Add it in your root build.gradle at the end of repositories:
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Step 2. Add the dependency
+```gradle
+	dependencies {
+	        implementation 'com.github.Scrappers-glitch:ArithmosWrapper:alpha-0.1v'
+	}
+ ```
